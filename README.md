@@ -2,9 +2,11 @@
 
 ## Overview
 
-This is a series of scripts used to detect anomalies in CAN bus control messages by applying Machine Learning techniques. The scripts in this repository can be used to create an automotive Intrusion Detection System. 
+This is a series of scripts used to detect anomalies in CAN bus control messages by applying Machine Learning techniques. The scripts in this repository can be used to create an automotive Intrusion Detection System.
 
-The goal of this project is to to be able to detect new and unkown threats and attacks in automotive vehicles.
+CAN-control currently uses LinkedIn's [luminol](https://github.com/linkedin/luminol) framework for scoring. An introduction can be found here: Luminol @ LinkedIn: http://bit.ly/2v0yl9L 
+
+The final objective goal of the CAN-control is to to be able to detect new and unkown threats and attacks in automotive vehicles.
 
 ## Supported formats
 The collection of scripts currently supports the analysis of logs created with CANoe and saved as ASCII output.
